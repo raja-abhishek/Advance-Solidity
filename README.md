@@ -15,6 +15,8 @@ The steps for this assignment are divided into the following subsections:
 
 Created a smart contract that defines KaseiCoin as an ERC-20 token. 
 
+![Compilation_KaseiCoin_Contract](./Screenshots/Compilation_KaseiCoin_Contract.png)
+
 ##### Step 2: Create the KaseiCoin Crowdsale Contract
 
 In this subsection, defined the KaseiCoin crowdsale contract. To do so, complete the following steps:
@@ -26,7 +28,7 @@ In this subsection, defined the KaseiCoin crowdsale contract. To do so, complete
 2. In the KaisenCoinCrowdsale constructor, provided parameters for all the features of your crowdsale, such as rate, wallet (where to deposit the funds that the token raises), and token. Configured these parameters as KaseiCoin token.
 
 3. Compiled the contract by using compiler version 0.5.0.
-
+![Compilation_KaseiCoin_Crowdsale_Contract](./Screenshots/Compilation_KaseiCoin_Crowdsale_Contract.png)
 ##### Step 3: Create the KaseiCoin Deployer Contract
 In this subsection, Created the KaseiCoin deployer contract. 
 
@@ -49,16 +51,17 @@ In the KaseiCoinCrowdsaleDeployer contract, added variables to store the address
     - Set the KaseiCoinCrowdsale contract as a minter.
     - Had the KaseiCoinCrowdsaleDeployer renounce its minter role.
 5. Compiled the contract by using compiler version 0.5.0.
-
+![Compilation_KaseiCoin_Deployer_Contract](./Screenshots/Compilation_KaseiCoin_Deployer_Contract.png)
 ##### Step 4: Deploy and Test the Crowdsale on a Local Blockchain
 In this subsection, deployed the crowdsale to a local blockchain. Performed a real-world, preproduction test of crowdsale. To do so, completed the following steps:
 
 - Deployed the crowdsale to a local blockchain by using Remix, MetaMask, and Ganache.
 - Tested the functionality of the crowdsale by using test accounts to buy new tokens and then checking the balances of those accounts.
 - Reviewed the total supply of minted tokens and the amount of wei that the crowdsale contract has raised.
-
-
-
+###### Deployment Screenshot
+![Deployment](./Screenshots/Deployment.png)
+###### Functionality & wei raised
+![Functionality testing](./Screenshots/'Functionality testing.png')
 
 
 
