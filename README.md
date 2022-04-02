@@ -61,10 +61,4 @@ In this subsection, deployed the crowdsale to a local blockchain. Performed a re
 ###### Deployment Screenshot
 ![Deployment](./Screenshots/Deployment.png)
 ###### Functionality & wei raised
-![Functionality testing](./Screenshots/'Functionality testing.png')
-
-
-
-
-
-
+![Functionality testing](./Screenshots/Functionality%20testing.png)
